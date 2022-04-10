@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    min-width: 375px;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 320px;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+}
+
+.img-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 20px 20px 20px;
+}
+
+.main-img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.name-box {
+    text-align: left;
+    margin: 20px;
+    color: #FFF;
+}
+
+.descr-box {
+    text-align: left;
+    margin: 20px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.value, .days {
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-img, .clock-img {
+    float: left;
+    margin-right: 8px;
+    position: relative;
+    top: 1px;
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+}
+
+.footer {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin: 20px;
+    padding: 15px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-img {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 3px;
+}
+
+.box {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #FFF;
+    letter-spacing: .5px;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
